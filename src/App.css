@@ -1,0 +1,26 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* ===========================
+   FONTES
+=========================== */
+
+@font-face {
+  font-family: "Basier";
+  src: url("fonts/BasierCircle-Regular.otf") format("truetype");
+  font-weight:normal;
+  font-style: normal;
+}
+
+html{
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "Inter", "Basier", sans-serif;
+  background: #ffffff;
+  color: #1c1c1e;
+}
