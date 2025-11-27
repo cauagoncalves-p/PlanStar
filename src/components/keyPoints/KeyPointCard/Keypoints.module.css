@@ -1,0 +1,25 @@
+
+.keyPoints_divImg{
+  border-radius: 50%;
+  background-color: #fafafa;
+  padding: 0.7rem;
+}
+
+.keyPoints_describe img{
+  height: 3rem;
+  width: 3rem;
+}
+
+.keyPoints_describe{
+  width: 30%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 2rem;
+}
+
+.keyPoints_describe p{
+  width: 80%;
+  text-align: center;
+  margin-top: 2rem;
+}

@@ -4,7 +4,7 @@ main{
   align-items: center;
 }
 
-.main-title{
+.main_title{
   margin-top: 10rem;
   display: flex;
   flex-direction: column;
@@ -12,13 +12,21 @@ main{
   gap: 1rem;
 }
 
-.main-title h1{
+.main_title h1{
   text-align: center;
   font-size: 4rem;
   width: 100%;
 }
 
-.main-title p{
+.main_title p{
   text-align: center;
   width: 55%;
+}
+
+
+.contact-plans-section{
+  display: flex;
+  margin-top: 2rem;
+  align-items: center;
+  gap: 2rem;
 }

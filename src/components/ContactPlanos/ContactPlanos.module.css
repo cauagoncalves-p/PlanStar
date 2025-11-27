@@ -1,12 +1,4 @@
-
-.contact-plans-section{
-  display: flex;
-  margin-top: 2rem;
-  align-items: center;
-  gap: 2rem;
-}
-
-.contact-plans-box{
+.contact-plans_box{
   flex-direction: column;
   border-radius: 10px;
   padding: 20px;
@@ -19,18 +11,18 @@
   transition: 0.2s ease;
 }
 
-.contact-plans-box:hover{
+.contact_plans_box:hover{
   transform: translateY(-4px);
   box-shadow: 0 16px 32px rgba(0,0,0,0.08);
 }
 
-.contact-plans-header{
+.contact_plans_header{
   display: flex;
   gap: 1rem;
   align-items: center;
 }
 
-.contact-plans-header img{
+.contact_plans_header img{
   height: 1.5rem;
   width: 1.5rem;
 }
@@ -56,21 +48,21 @@
   border: 1px solid black;  
 }
 
-.contact-plans-button img {
+.contact_plans_button img {
   width: 1rem;
   height: 1rem;
   opacity: 0.8;
   transition: opacity 0.2s ease, transform 0.2s ease;
 }
 
-.contact-plans-button:hover {
+.contact_plans_button:hover {
   background: rgba(255, 255, 255, 0.14);
   border-color: rgba(255, 255, 255, 0.25);
   box-shadow: 0 0 25px rgba(255, 255, 255, 0.07);
   transform: translateY(-2px);
 }
 
-.contact-plans-button:hover img {
+.contact_plans_button:hover img {
   opacity: 1;
   transform: translateX(3px);
 }

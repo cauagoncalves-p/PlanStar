@@ -1,0 +1,13 @@
+.accordion {
+  width: 80%;
+  margin: 60px auto;
+  font-family: -apple-system, BlinkMacSystemFont, "Inter", sans-serif;
+}
+
+.accordion h2 {
+  text-align: center;
+  margin-bottom: 30px;
+  font-weight: 700;
+  font-size: 28px;
+  color: #111;
+}

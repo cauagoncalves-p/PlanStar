@@ -1,4 +1,4 @@
-.features-planstar {
+.features_planstar {
   display: flex;
   justify-content: space-between;
   gap: 40px;
@@ -9,7 +9,7 @@
 /* ===========================
    HERO SECTION — APPLE CLEAN
 =========================== */
-.hero-planstar {
+.hero_planstar {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -19,7 +19,7 @@
   margin-top: 7rem;
 }
 
-.hero-left h1 {
+.hero_left h1 {
   font-family: "Basier", sans-serif;
   font-size: 52px;
   line-height: 1.15;
@@ -28,7 +28,7 @@
   letter-spacing: -1px;
 }
 
-.hero-sub {
+.hero_sub {
   margin-top: 20px;
   font-size: 20px;
   line-height: 32px;
@@ -36,7 +36,7 @@
   max-width: 520px;
 }
 
-.hero-buttons {
+.hero_buttons {
   display: flex;
   align-items: center;
   gap: 14px;
@@ -44,7 +44,7 @@
 }
 
 /* BOTÃO */
-.btn-primary-hero {
+.btn_primary_hero {
   background: #111;
   color: #fff;
   padding: 14px 28px;
@@ -55,17 +55,17 @@
   transition: 0.2s;
 }
 
-.btn-primary-hero:hover {
+.btn_primary_hero:hover {
   background: #000;
   transform: scale(1.03);
 }
 
-.hero-note {
+.hero_note {
   font-size: 14px;
   color: #8e8e93;
 }
 
-.hero-right {
+.hero_right {
   flex-shrink: 0; 
   display: flex;
   justify-content: center;
@@ -73,7 +73,7 @@
   min-width: 380px; 
 }
 
-.hero-img {
+.hero_img {
   width: 700px;
   max-width: 700px;
   border-radius: 18px;

@@ -1,18 +1,18 @@
-import "../ContactPlanos/ContactPlanos.css"
+import styles from "../ContactPlanos/ContactPlanos.module.css"
 import iconearrow from "../ContactPlanos/assets/right-arrow.png"
 const ContactPlanos = ({title, icone, describe, departament}) => {
     return(
-        <div class="contact-plans-box">
-          <div class="contact-plans-header">
-              <img src={icone} alt="Ícone de e-mail"/>
+        <div className={styles.contact_plans_box}>
+          <div className={styles.contact_plans_header}>
+              <img src={icone} alt="Ícone de e_mail"/>
               <p>{title}</p>
           </div>
 
-          <div class="contact-plans-description">
+          <div className={styles.contact_plans_description}>
             <p>{describe}</p>
           </div>
 
-          <button class="contact-plans-button">
+          <button className={styles.contact_plans_button}>
             {departament}
             <img src={iconearrow} alt="Icone de seta"/>
           </button>

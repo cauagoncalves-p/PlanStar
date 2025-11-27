@@ -1,6 +1,7 @@
+import styles from "../StartText/StartText.module.css"
 const StartText = ({text}) =>{
     return(
-         <p class="start-text">{text}</p>
+         <p className={styles.start_text}>{text}</p>
     )
 }
 

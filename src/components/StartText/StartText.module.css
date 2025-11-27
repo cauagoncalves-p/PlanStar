@@ -1,0 +1,11 @@
+.start_text {
+  font-size: 18px;
+  color: #4a4a4f;
+  line-height: 1.75;
+  margin-bottom: 18px;
+  background: #fff;
+  padding: 20px 24px;
+  border-radius: 14px;
+  box-shadow: 0 8px 26px rgba(0,0,0,0.05);
+  border: 1px solid rgba(0,0,0,0.04);
+}

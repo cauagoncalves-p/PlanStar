@@ -1,4 +1,4 @@
-import "../Footer/Footer.css"
+import styles from "../Footer/Footer.module.css"
 import logoInstagram from "../Footer/assets/instagram-logo.png"
 import logoLinkedln from "../Footer/assets/linkedin-logo.png"
 import logoPlanStar from "../../assets/favicon-logo.png"
@@ -7,12 +7,12 @@ const Footer = () =>{
    return(
      <footer>
         <section>
-          <div class="logo-footer">
+          <div className={styles.logo_footer}>
             <h2>PlanStar</h2>
             <img src={logoPlanStar} alt="Logo de uma estrela verde"/>
           </div>
 
-          <div class="logo-infos">
+          <div className={styles.logo_infos}>
             <h3>Inicio</h3>
             <div>
                 <a href="#">Início</a>
@@ -23,16 +23,16 @@ const Footer = () =>{
             </div>
           </div>
         
-          <div class="contacts-logo">
+          <div className={styles.contacts_logo}>
               <h3>Informações de contato</h3>
               <div>
                 <a href="">Email para contato: planstar@gmail.com</a>
-                <a href="">WhatsApp: (11) 98756-4321</a>
+                <a href="">WhatsApp: (11) 98756_4321</a>
                 <a href="">Local: Espro Santo Amaro</a>
               </div>
           </div>
 
-          <div class="policies-footer">
+          <div className={styles.policies_footer}>
             <h3>Política de privacidade</h3>
             <div>
               <a href="">Política de Privacidade</a>
@@ -40,7 +40,7 @@ const Footer = () =>{
             </div>
           </div>
 
-          <div class="image-footer-socia-midia">
+          <div className={styles.image_footer_socia_midia}>
             <h3>Redes sociais</h3>
             <div>
                 <a href=""><img src={logoInstagram} alt="Logo do instagram"/></a>
@@ -48,7 +48,7 @@ const Footer = () =>{
             </div>
           </div>
       </section>
-      <div class="copywrite-footer">
+      <div className={styles.copywrite_footer}>
         <p>© 2025 PlanStar — Todos os direitos reservados.</p>
       </div>
     </footer>

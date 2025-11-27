@@ -1,5 +1,4 @@
-
-.team-card {
+.team_card {
   background: #fbfbfc;
   border-radius: 18px;
   padding: 26px;
@@ -8,12 +7,12 @@
   transition: transform 0.25s ease, box-shadow 0.25s ease;
 }
 
-.team-card:hover {
+.team_card:hover {
   transform: translateY(-6px);
   box-shadow: 0 14px 35px rgba(0,0,0,0.08);
 }
 
-.team-photo {
+.team_photo {
   width: 100%;
   height: 260px;
   object-fit: cover;
@@ -21,14 +20,14 @@
   margin-bottom: 18px;
 }
 
-.team-name {
+.team_name {
   font-size: 20px;
   color: #111;
   margin: 8px 0 4px 0;
   font-weight: 700;
 }
 
-.team-role {
+.team_role {
   font-size: 15px;
   color: #6b6b6f;
   font-weight: 500;

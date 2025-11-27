@@ -1,0 +1,49 @@
+.keyPoints{
+  background-color: #000;
+  text-align: center;
+  padding: 50px 50px;
+}
+
+.keyPoints h1 {
+  font-size: 40px;
+  font-weight: 800;
+  background: linear-gradient(
+    90deg,
+    #6a5acd 0%,
+    #6a5acd 30%,
+    #00c2ff 50%,
+    #ff67d4 70%,
+    #6a5acd 100%
+  );
+  background-size: 200%;
+  background-position: 0%;
+  -webkit-background-clip: text;
+  color: transparent;
+  animation: shine 9s linear infinite;
+  padding: 2rem;
+}
+
+@keyframes shine {
+  0% {
+    background-position: 200% 0;
+  }
+  100% {
+    background-position: -200% 0;
+  }
+}
+
+.keyPoints h4{
+  color:#fff;
+  margin-top: 1rem;
+}
+
+.keyPoints p{
+  color: #6e6e73;
+}
+
+.keyPoints_div{
+  display: flex;
+  justify-content: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
