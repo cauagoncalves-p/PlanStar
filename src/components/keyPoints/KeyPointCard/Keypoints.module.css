@@ -1,8 +1,13 @@
 
 .keyPoints_divImg{
-  border-radius: 50%;
-  background-color: #fafafa;
-  padding: 0.7rem;
+    border-radius: 50%;
+    background-color: #fafafa;
+    /* padding: 0.7rem; */
+    height: 5rem;
+    width: 5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .keyPoints_describe img{

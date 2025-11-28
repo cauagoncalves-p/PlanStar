@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import AccordionSection from "../../components/Acordion/AccordionSection/AccordionSection";
 import Features from "../../components/Features_planstar/Features";
 import Footer from "../../components/Footer/Footer";
@@ -20,7 +21,9 @@ const Home = () =>{
                     </p>
                     
                     <div className={styles.hero_buttons}>
+                        <Link to="/contato">
                         <a href="#contact" className={styles.btn_primary_hero}>Entrar em contato</a>
+                        </Link>
                         <span className="hero_note">Sem burocracia • Resposta rápida</span>
                     </div>
                 </div>

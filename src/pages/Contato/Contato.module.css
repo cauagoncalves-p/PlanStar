@@ -1,9 +1,3 @@
-main{
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-
 .main_title{
   margin-top: 10rem;
   display: flex;
@@ -24,9 +18,10 @@ main{
 }
 
 
-.contact-plans-section{
+.contact_plans_section{
   display: flex;
-  margin-top: 2rem;
+  margin-top: 5rem;
   align-items: center;
   gap: 2rem;
+  margin-bottom: 5rem;
 }
